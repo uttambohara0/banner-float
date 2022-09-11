@@ -1,0 +1,107 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.article {
+    width: 700px;
+    border: 3px solid black;
+    margin: 10px auto;
+}
+
+.article h1 {
+    text-transform: uppercase;
+    background-color: gray;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
+
+}
+
+/*----------------------------*/
+/* For 5 different color box */
+.boxes .div1 {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.boxes .div2 {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+}
+
+.boxes .div3 {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.boxes .div4 {
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+}
+
+.boxes .div5 {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+}
+
+.boxes div {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+/*----------------------------*/
+
+.button,
+button:link,
+button:visited {
+    height: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.button:hover {
+    height: 35px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.div1 {
+    width: 180px;
+    float: left;
+}
+
+.div2 {
+    width: 257px;
+    float: left;
+    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.div3 {
+    width: 257px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+footer::before {
+    width: 100%;
+    content: '';
+    display: block;
+    clear: both;
+}
